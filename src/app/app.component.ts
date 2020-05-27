@@ -7,4 +7,18 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'das-Rezeptbuch';
+
+  enableRecipe = false;
+  enableShopping = false;
+
+  onNavigate(feature: string) {
+    if (feature === 'recipes'){
+      this.enableRecipe = true;
+      this.enableShopping = false;
+    }
+    else if (feature !== 'recipes'){
+      this.enableRecipe = false;
+      this.enableShopping = true;
+    }
+  }
 }
