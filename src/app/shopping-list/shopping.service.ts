@@ -20,7 +20,11 @@ export class ShoppingService {
   }
 
   addIngredient(ing: Ingredient) {
-    // this.ingredients.push(ing);
+    this.ingredients.push(ing);
     this.ingredient.emit(ing);
+  }
+
+  addIngredients(ing: Ingredient[]) {
+    this.ingredients.push(...ing);
   }
 }
