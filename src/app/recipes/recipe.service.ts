@@ -15,7 +15,7 @@ export class RecipeService {
     new Recipe(
       'Paprika Chicken',
       'Straight forward grilled chicken recipe',
-      'https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F1018451.jpg',
+      'https://images.media-allrecipes.com/userphotos/1018451.jpg',
       [
         new Ingredient(
           '(5 pound) whole chicken',
@@ -29,7 +29,7 @@ export class RecipeService {
     new Recipe(
       'Italian Chicken Marinade',
       'Delicious way of marinating your chicken',
-      'https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F665982.jpg',
+      'https://images.media-allrecipes.com/userphotos/665982.jpg',
       [
         new Ingredient(
           'boneless chicken breast halves',
